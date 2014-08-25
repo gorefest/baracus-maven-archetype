@@ -1,0 +1,61 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/widget0"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@android:id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="${symbol_pound}ffffff"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <TextView
+            android:id="@+id/customerId"
+            android:layout_height="wrap_content"
+            android:layout_width="50dip"
+            android:text="" android:singleLine="true"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="${symbol_pound}ff000000"/>
+    <TextView
+            android:id="@+id/customerLastName"
+            android:layout_height="wrap_content"
+            android:layout_width="100dip"
+            android:text="Title" android:singleLine="true"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="${symbol_pound}ff550000"
+            android:background="${symbol_pound}bbffbb"/>
+    <TextView
+            android:id="@+id/customerFirstName"
+            android:layout_height="wrap_content"
+            android:layout_width="100dip"
+            android:text="Title" android:singleLine="true"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="${symbol_pound}ff550000"
+            android:layout_alignParentRight="true"
+            android:background="${symbol_pound}bbffbb"/>
+    <TextView
+            android:id="@+id/customerCreated"
+            android:layout_height="wrap_content"
+            android:layout_width="75dip"
+            android:text="Title" android:singleLine="true"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="${symbol_pound}ff550000"
+            android:background="${symbol_pound}bbffbb"/>
+    <TextView
+            android:id="@+id/customerLastModified"
+            android:layout_height="wrap_content"
+            android:layout_width="75dip"
+            android:text="Title" android:singleLine="true"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="${symbol_pound}ff550000"
+            android:background="${symbol_pound}bbffbb"/>
+
+
+</LinearLayout>
