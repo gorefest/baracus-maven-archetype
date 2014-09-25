@@ -5,7 +5,7 @@
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
 	<packaging>apk</packaging>
-	<name>{artifactId}</name>
+	<name>${artifactId}</name>
 
 	<properties>
         <!-- modify this path to your android SDK including the version and the sdk level -->
@@ -17,7 +17,7 @@
         <android.plugin.version>3.8.2</android.plugin.version>
 
         <!-- baracus framework version. see http://www.baracus.org for APIs and tutorials -->
-        <baracus.version>0.8.1</baracus.version>
+        <baracus.version>0.8.2</baracus.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
