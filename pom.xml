@@ -9,6 +9,8 @@
     <packaging>maven-archetype</packaging>
 
     <name>baracus-maven-archetype</name>
+    <description>Maven Mrchetype for the BARACUS framework for Android application</description>
+    <url>http://www.baracus.org/</url>
 
     <licenses>
         <license>
