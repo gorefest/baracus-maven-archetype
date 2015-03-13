@@ -5,15 +5,15 @@ package ${package}.dao;
 
 import android.content.ContentValues;
 import android.database.Cursor;
-import net.mantucon.baracus.annotations.Bean;
-import net.mantucon.baracus.dao.BaseDao;
-import net.mantucon.baracus.orm.Field;
-import net.mantucon.baracus.orm.FieldList;
+import org.baracus.annotations.Bean;
+import org.baracus.dao.BaseDao;
+import org.baracus.orm.Field;
+import org.baracus.orm.FieldList;
 import ${package}.model.Customer;
 
 import java.util.Date;
 
-import static net.mantucon.baracus.orm.ModelBase.idCol;
+import static org.baracus.orm.ModelBase.idCol;
 import static ${package}.model.Customer.*;
 
 /**

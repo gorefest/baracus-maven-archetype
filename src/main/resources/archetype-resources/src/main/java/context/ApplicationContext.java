@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.context;
 
-import net.mantucon.baracus.context.BaracusApplicationContext;
+import org.baracus.context.BaracusApplicationContext;
 import ${package}.dao.CustomerDao;
 import ${package}.service.ConfigurationService;
 import ${package}.service.CustomerDataService;

@@ -3,9 +3,9 @@
 #set( $symbol_escape = '\' )
 package ${package}.context;
 
-import net.mantucon.baracus.annotations.Bean;
-import net.mantucon.baracus.lifecycle.ApplicationContextInitializer;
-import net.mantucon.baracus.util.Logger;
+import org.baracus.annotations.Bean;
+import org.baracus.lifecycle.ApplicationContextInitializer;
+import org.baracus.util.Logger;
 import ${package}.service.ConfigurationService;
 import ${package}.service.CustomerDataService;
 

@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import net.mantucon.baracus.util.DateUtil;
+import org.baracus.util.DateUtil;
 import ${package}.model.Customer;
 
 /**

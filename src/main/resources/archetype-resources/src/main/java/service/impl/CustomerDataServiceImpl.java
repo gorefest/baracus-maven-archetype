@@ -3,8 +3,8 @@
 #set( $symbol_escape = '\' )
 package ${package}.service.impl;
 
-import net.mantucon.baracus.annotations.Bean;
-import net.mantucon.baracus.util.Logger;
+import org.baracus.annotations.Bean;
+import org.baracus.util.Logger;
 import ${package}.dao.CustomerDao;
 import ${package}.model.Customer;
 import ${package}.service.CustomerDataService;

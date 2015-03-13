@@ -6,9 +6,9 @@ package ${package};
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.ListView;
-import net.mantucon.baracus.annotations.Bean;
-import net.mantucon.baracus.context.ManagedActivity;
-import net.mantucon.baracus.util.Logger;
+import org.baracus.annotations.Bean;
+import org.baracus.context.ManagedActivity;
+import org.baracus.util.Logger;
 import ${package}.dao.CustomerDao;
 import ${package}.model.Customer;
 

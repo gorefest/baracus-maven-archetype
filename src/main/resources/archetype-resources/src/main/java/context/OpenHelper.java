@@ -4,7 +4,7 @@
 package ${package}.context;
 
 import android.content.Context;
-import net.mantucon.baracus.dao.BaracusOpenHelper;
+import org.baracus.dao.BaracusOpenHelper;
 import ${package}.migr8.ModelVersion100;
 
 /**

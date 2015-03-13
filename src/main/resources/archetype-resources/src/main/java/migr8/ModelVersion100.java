@@ -4,8 +4,8 @@
 package ${package}.migr8;
 
 import android.database.sqlite.SQLiteDatabase;
-import net.mantucon.baracus.migr8.MigrationStep;
-import net.mantucon.baracus.util.Logger;
+import org.baracus.migr8.MigrationStep;
+import org.baracus.util.Logger;
 import ${package}.model.Customer;
 
 /**

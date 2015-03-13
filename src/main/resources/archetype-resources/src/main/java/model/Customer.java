@@ -3,10 +3,10 @@
 #set( $symbol_escape = '\' )
 package ${package}.model;
 
-import net.mantucon.baracus.orm.Field;
-import net.mantucon.baracus.orm.FieldList;
-import net.mantucon.baracus.orm.ModelBase;
-import net.mantucon.baracus.orm.Timestamped;
+import org.baracus.orm.Field;
+import org.baracus.orm.FieldList;
+import org.baracus.orm.ModelBase;
+import org.baracus.orm.Timestamped;
 
 import java.util.Date;
 

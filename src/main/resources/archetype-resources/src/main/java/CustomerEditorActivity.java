@@ -6,8 +6,8 @@ package ${package};
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import net.mantucon.baracus.annotations.Bean;
-import net.mantucon.baracus.context.ManagedActivity;
+import org.baracus.annotations.Bean;
+import org.baracus.context.ManagedActivity;
 import ${package}.dao.CustomerDao;
 import ${package}.model.Customer;
 
