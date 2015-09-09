@@ -10,77 +10,83 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/layout</directory>
+      <directory>src/main/res/layout</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/values-sw600dp</directory>
+      <directory>src/main/res/values-sw600dp</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/values</directory>
+      <directory>src/main/res/values</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/values-sw720dp-land</directory>
+      <directory>src/main/res/values-sw720dp-land</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/menu</directory>
+      <directory>src/main/res/menu</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/values-v11</directory>
+      <directory>src/main/res/values-v11</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory>res/values-v14</directory>
+      <directory>src/main/res/values-v14</directory>
       <includes>
         <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>res/drawable-xhdpi</directory>
+      <directory>src/main/res/drawable-xhdpi</directory>
       <includes>
         <include>**/*.png</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>res/drawable-hdpi</directory>
+      <directory>src/main/res/drawable-hdpi</directory>
       <includes>
         <include>**/*.png</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>res/drawable-xxhdpi</directory>
+      <directory>src/main/res/drawable-xxhdpi</directory>
       <includes>
         <include>**/*.png</include>
       </includes>
     </fileSet>
     <fileSet encoding="UTF-8">
-      <directory>res/drawable-mdpi</directory>
+      <directory>src/main/res/drawable-mdpi</directory>
       <includes>
         <include>**/*.png</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main</directory>
+      <includes>
+        <include>AndroidManifest.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
       <directory></directory>
       <includes>
-        <include>AndroidManifest.xml</include>
         <include>default.properties</include>
       </includes>
     </fileSet>
+
   </fileSets>
 </archetype-descriptor>

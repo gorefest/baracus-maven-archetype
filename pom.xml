@@ -5,7 +5,7 @@
 
     <groupId>org.baracus.application</groupId>
     <artifactId>baracus-maven-archetype</artifactId>
-    <version>0.9</version>
+    <version>0.9.1</version>
     <packaging>maven-archetype</packaging>
 
     <name>baracus-maven-archetype</name>
